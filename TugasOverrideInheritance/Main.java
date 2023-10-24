@@ -14,9 +14,11 @@ public class Main {
 public static void main(String[] args) {
         Animals hewan = new Animals();
         
+        //contoh dengan override
         Anjing anjing = new Anjing();
         anjing.bersuara("Doggy");
         
+        //contoh tanpa override
         hewan.bersuara("Katty");
         Kucing kucing = new Kucing();
         kucing.suara();
